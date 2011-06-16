@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  call_id: 1
+  outcome_id: 1
+  in_favor: false
+  comments: MyText
+
+two:
+  call_id: 1
+  outcome_id: 1
+  in_favor: false
+  comments: MyText

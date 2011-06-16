@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @org.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @org.description %>
+</p>
+
+<p>
+  <b>Primary user:</b>
+  <%= @org.primary_user %>
+</p>
+
+
+<%= link_to 'Edit', edit_org_path(@org) %> |
+<%= link_to 'Back', orgs_path %>

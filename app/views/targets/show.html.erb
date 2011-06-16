@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Campaign:</b>
+  <%= @target.campaign_id %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @target.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @target.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_target_path(@target) %> |
+<%= link_to 'Back', targets_path %>

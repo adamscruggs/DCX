@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  constituent_id: 1
+  campaign_id: 1
+  call_date: 2011-06-16
+  call_time: 2011-06-16 14:38:46
+
+two:
+  constituent_id: 1
+  campaign_id: 1
+  call_date: 2011-06-16
+  call_time: 2011-06-16 14:38:46

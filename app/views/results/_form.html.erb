@@ -1,0 +1,33 @@
+<%= form_for(@result) do |f| %>
+  <% if @result.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@result.errors.count, "error") %> prohibited this result from being saved:</h2>
+
+      <ul>
+      <% @result.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :call_id %><br />
+    <%= f.text_field :call_id %>
+  </div>
+  <div class="field">
+    <%= f.label :outcome_id %><br />
+    <%= f.text_field :outcome_id %>
+  </div>
+  <div class="field">
+    <%= f.label :in_favor %><br />
+    <%= f.check_box :in_favor %>
+  </div>
+  <div class="field">
+    <%= f.label :comments %><br />
+    <%= f.text_area :comments %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

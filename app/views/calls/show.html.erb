@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Constituent:</b>
+  <%= @call.constituent_id %>
+</p>
+
+<p>
+  <b>Campaign:</b>
+  <%= @call.campaign_id %>
+</p>
+
+<p>
+  <b>Call date:</b>
+  <%= @call.call_date %>
+</p>
+
+<p>
+  <b>Call time:</b>
+  <%= @call.call_time %>
+</p>
+
+
+<%= link_to 'Edit', edit_call_path(@call) %> |
+<%= link_to 'Back', calls_path %>
